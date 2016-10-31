@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:DLZHelpers/Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HomeAPP/HomeAPP.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DLZHelpers/DLZHelpers.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DLZControls/DLZControls.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07FB85341C790094007D1F49 /* UIButton+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FB85331C790094007D1F49 /* UIButton+Style.m */; };
+		07FB853A1C790622007D1F49 /* UITextField+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FB85391C790622007D1F49 /* UITextField+Style.m */; };
+		691F7A051CB7BD4200B4C1A7 /* DLZDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 691F7A031CB7BD4200B4C1A7 /* DLZDatePickerViewController.m */; };
+		6993F93F1CACD44100B6124A /* UILabel+extmethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6993F93E1CACD44100B6124A /* UILabel+extmethod.m */; };
+		6993F94A1CAD377700B6124A /* DrawLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6993F9491CAD377700B6124A /* DrawLineView.m */; };
+		69A464D01CA3DA9900E208B9 /* DLZTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A464CF1CA3DA9900E208B9 /* DLZTabbarViewController.m */; };
+		69B664691CE1F3C600199F32 /* DLZAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B664681CE1F3C600199F32 /* DLZAlertView.m */; };
+		69F81E311CB10456007DF1AB /* DLZDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F81E301CB10455007DF1AB /* DLZDatePicker.m */; };
+		69F8CB621CABB6AB00C5301E /* DLZCombox.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F8CB611CABB6AB00C5301E /* DLZCombox.m */; };
+		BB6108301C073D2B004514F5 /* PinPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB61082F1C073D2B004514F5 /* PinPasswordView.m */; };
+		BB782C4E1C2B7D1000B85F81 /* AlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB782C4D1C2B7D1000B85F81 /* AlertController.m */; };
+		BBE6822E1BFCBD4D00C94221 /* libDLZControls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE682221BFCBD4D00C94221 /* libDLZControls.a */; };
+		BBE682B61BFCC60F00C94221 /* UILabel+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE682B51BFCC60F00C94221 /* UILabel+Style.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBE6822F1BFCBD4D00C94221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBE6821A1BFCBD4D00C94221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBE682211BFCBD4D00C94221;
+			remoteInfo = DLZControls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BBE682201BFCBD4D00C94221 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07FB85321C790094007D1F49 /* UIButton+Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Style.h"; sourceTree = "<group>"; };
+		07FB85331C790094007D1F49 /* UIButton+Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Style.m"; sourceTree = "<group>"; };
+		07FB85381C790622007D1F49 /* UITextField+Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Style.h"; sourceTree = "<group>"; };
+		07FB85391C790622007D1F49 /* UITextField+Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Style.m"; sourceTree = "<group>"; };
+		691F79F61CB75EF100B4C1A7 /* NSDate+ExtMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+ExtMethod.h"; path = "../../DLZHelpers/DLZHelpers/Category/NSDate+ExtMethod.h"; sourceTree = "<group>"; };
+		691F79F71CB75EF100B4C1A7 /* NSString+ExtMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ExtMethod.h"; path = "../../DLZHelpers/DLZHelpers/Category/NSString+ExtMethod.h"; sourceTree = "<group>"; };
+		691F79F81CB75F5400B4C1A7 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ../../DLZHelpers/Pods/MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
+		691F7A021CB7BD4200B4C1A7 /* DLZDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLZDatePickerViewController.h; sourceTree = "<group>"; };
+		691F7A031CB7BD4200B4C1A7 /* DLZDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLZDatePickerViewController.m; sourceTree = "<group>"; };
+		691F7A041CB7BD4200B4C1A7 /* DLZDatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLZDatePickerViewController.xib; sourceTree = "<group>"; };
+		695249561CBF9D6100222A42 /* DLZDateActionSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLZDateActionSheet.xib; sourceTree = "<group>"; };
+		6993F93D1CACD44100B6124A /* UILabel+extmethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+extmethod.h"; sourceTree = "<group>"; };
+		6993F93E1CACD44100B6124A /* UILabel+extmethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+extmethod.m"; sourceTree = "<group>"; };
+		6993F9481CAD377700B6124A /* DrawLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLineView.h; sourceTree = "<group>"; };
+		6993F9491CAD377700B6124A /* DrawLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLineView.m; sourceTree = "<group>"; };
+		69A464CE1CA3DA9900E208B9 /* DLZTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLZTabbarViewController.h; sourceTree = "<group>"; };
+		69A464CF1CA3DA9900E208B9 /* DLZTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLZTabbarViewController.m; sourceTree = "<group>"; };
+		69A464DF1CA3E26F00E208B9 /* DLZControls-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DLZControls-Prefix.pch"; sourceTree = "<group>"; };
+		69B664671CE1F3C600199F32 /* DLZAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLZAlertView.h; sourceTree = "<group>"; };
+		69B664681CE1F3C600199F32 /* DLZAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLZAlertView.m; sourceTree = "<group>"; };
+		69B6646C1CE2067700199F32 /* DLZControlsResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DLZControlsResource.bundle; sourceTree = "<group>"; };
+		69F112A81CF439A400BE528C /* UIView+ExtMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+ExtMethod.h"; path = "../../DLZHelpers/DLZHelpers/Category/UIView+ExtMethod.h"; sourceTree = "<group>"; };
+		69F81E2F1CB10455007DF1AB /* DLZDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLZDatePicker.h; sourceTree = "<group>"; };
+		69F81E301CB10455007DF1AB /* DLZDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLZDatePicker.m; sourceTree = "<group>"; };
+		69F8CB601CABB6AB00C5301E /* DLZCombox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLZCombox.h; sourceTree = "<group>"; };
+		69F8CB611CABB6AB00C5301E /* DLZCombox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLZCombox.m; sourceTree = "<group>"; };
+		BB61082E1C073D2B004514F5 /* PinPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinPasswordView.h; sourceTree = "<group>"; };
+		BB61082F1C073D2B004514F5 /* PinPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinPasswordView.m; sourceTree = "<group>"; };
+		BB782C4C1C2B7D1000B85F81 /* AlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertController.h; sourceTree = "<group>"; };
+		BB782C4D1C2B7D1000B85F81 /* AlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertController.m; sourceTree = "<group>"; };
+		BBE682221BFCBD4D00C94221 /* libDLZControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDLZControls.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE6822D1BFCBD4D00C94221 /* DLZControlsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLZControlsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE682331BFCBD4D00C94221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE682B41BFCC60F00C94221 /* UILabel+Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Style.h"; sourceTree = "<group>"; };
+		BBE682B51BFCC60F00C94221 /* UILabel+Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Style.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBE6821F1BFCBD4D00C94221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE6822A1BFCBD4D00C94221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE6822E1BFCBD4D00C94221 /* libDLZControls.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		691F79F21CB75E9E00B4C1A7 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				691F79F81CB75F5400B4C1A7 /* MBProgressHUD.h */,
+				691F79F61CB75EF100B4C1A7 /* NSDate+ExtMethod.h */,
+				691F79F71CB75EF100B4C1A7 /* NSString+ExtMethod.h */,
+				69F112A81CF439A400BE528C /* UIView+ExtMethod.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		691F79FB1CB7A6A700B4C1A7 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		6993F9471CAD374A00B6124A /* DrawControl */ = {
+			isa = PBXGroup;
+			children = (
+				6993F9481CAD377700B6124A /* DrawLineView.h */,
+				6993F9491CAD377700B6124A /* DrawLineView.m */,
+			);
+			path = DrawControl;
+			sourceTree = "<group>";
+		};
+		69A464CA1CA3D9E700E208B9 /* DLZTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				69A464CE1CA3DA9900E208B9 /* DLZTabbarViewController.h */,
+				69A464CF1CA3DA9900E208B9 /* DLZTabbarViewController.m */,
+			);
+			path = DLZTabbar;
+			sourceTree = "<group>";
+		};
+		69F81E2E1CB10421007DF1AB /* DLZDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				69F81E2F1CB10455007DF1AB /* DLZDatePicker.h */,
+				69F81E301CB10455007DF1AB /* DLZDatePicker.m */,
+				691F7A021CB7BD4200B4C1A7 /* DLZDatePickerViewController.h */,
+				691F7A031CB7BD4200B4C1A7 /* DLZDatePickerViewController.m */,
+				691F7A041CB7BD4200B4C1A7 /* DLZDatePickerViewController.xib */,
+				695249561CBF9D6100222A42 /* DLZDateActionSheet.xib */,
+			);
+			path = DLZDatePicker;
+			sourceTree = "<group>";
+		};
+		69F8CB5F1CABB5E600C5301E /* Combox */ = {
+			isa = PBXGroup;
+			children = (
+				69F8CB601CABB6AB00C5301E /* DLZCombox.h */,
+				69F8CB611CABB6AB00C5301E /* DLZCombox.m */,
+			);
+			path = Combox;
+			sourceTree = "<group>";
+		};
+		BB61082D1C073D09004514F5 /* PinPassword */ = {
+			isa = PBXGroup;
+			children = (
+				BB61082E1C073D2B004514F5 /* PinPasswordView.h */,
+				BB61082F1C073D2B004514F5 /* PinPasswordView.m */,
+			);
+			path = PinPassword;
+			sourceTree = "<group>";
+		};
+		BB782C4B1C2B7CB400B85F81 /* AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				BB782C4C1C2B7D1000B85F81 /* AlertController.h */,
+				BB782C4D1C2B7D1000B85F81 /* AlertController.m */,
+				69B664671CE1F3C600199F32 /* DLZAlertView.h */,
+				69B664681CE1F3C600199F32 /* DLZAlertView.m */,
+			);
+			path = AlertController;
+			sourceTree = "<group>";
+		};
+		BBE682191BFCBD4D00C94221 = {
+			isa = PBXGroup;
+			children = (
+				691F79FB1CB7A6A700B4C1A7 /* Vendors */,
+				BBE682241BFCBD4D00C94221 /* DLZControls */,
+				BBE682311BFCBD4D00C94221 /* DLZControlsTests */,
+				BBE682231BFCBD4D00C94221 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBE682231BFCBD4D00C94221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBE682221BFCBD4D00C94221 /* libDLZControls.a */,
+				BBE6822D1BFCBD4D00C94221 /* DLZControlsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBE682241BFCBD4D00C94221 /* DLZControls */ = {
+			isa = PBXGroup;
+			children = (
+				691F79F21CB75E9E00B4C1A7 /* Headers */,
+				69F81E2E1CB10421007DF1AB /* DLZDatePicker */,
+				BB782C4B1C2B7CB400B85F81 /* AlertController */,
+				69F8CB5F1CABB5E600C5301E /* Combox */,
+				69A464CA1CA3D9E700E208B9 /* DLZTabbar */,
+				6993F9471CAD374A00B6124A /* DrawControl */,
+				BB61082D1C073D09004514F5 /* PinPassword */,
+				BBE682B41BFCC60F00C94221 /* UILabel+Style.h */,
+				BBE682B51BFCC60F00C94221 /* UILabel+Style.m */,
+				6993F93D1CACD44100B6124A /* UILabel+extmethod.h */,
+				6993F93E1CACD44100B6124A /* UILabel+extmethod.m */,
+				07FB85321C790094007D1F49 /* UIButton+Style.h */,
+				07FB85331C790094007D1F49 /* UIButton+Style.m */,
+				07FB85381C790622007D1F49 /* UITextField+Style.h */,
+				07FB85391C790622007D1F49 /* UITextField+Style.m */,
+				69A464DF1CA3E26F00E208B9 /* DLZControls-Prefix.pch */,
+				69B6646C1CE2067700199F32 /* DLZControlsResource.bundle */,
+			);
+			path = DLZControls;
+			sourceTree = "<group>";
+		};
+		BBE682311BFCBD4D00C94221 /* DLZControlsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBE682321BFCBD4D00C94221 /* Supporting Files */,
+			);
+			path = DLZControlsTests;
+			sourceTree = "<group>";
+		};
+		BBE682321BFCBD4D00C94221 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBE682331BFCBD4D00C94221 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBE682211BFCBD4D00C94221 /* DLZControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBE682361BFCBD4D00C94221 /* Build configuration list for PBXNativeTarget "DLZControls" */;
+			buildPhases = (
+				BBE6821E1BFCBD4D00C94221 /* Sources */,
+				BBE682201BFCBD4D00C94221 /* CopyFiles */,
+				BBE6821F1BFCBD4D00C94221 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLZControls;
+			productName = DLZControls;
+			productReference = BBE682221BFCBD4D00C94221 /* libDLZControls.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BBE6822C1BFCBD4D00C94221 /* DLZControlsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBE682391BFCBD4D00C94221 /* Build configuration list for PBXNativeTarget "DLZControlsTests" */;
+			buildPhases = (
+				BBE682291BFCBD4D00C94221 /* Sources */,
+				BBE6822A1BFCBD4D00C94221 /* Frameworks */,
+				BBE6822B1BFCBD4D00C94221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBE682301BFCBD4D00C94221 /* PBXTargetDependency */,
+			);
+			name = DLZControlsTests;
+			productName = DLZControlsTests;
+			productReference = BBE6822D1BFCBD4D00C94221 /* DLZControlsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBE6821A1BFCBD4D00C94221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "李方超";
+				TargetAttributes = {
+					BBE682211BFCBD4D00C94221 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BBE6822C1BFCBD4D00C94221 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = BBE6821D1BFCBD4D00C94221 /* Build configuration list for PBXProject "DLZControls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BBE682191BFCBD4D00C94221;
+			productRefGroup = BBE682231BFCBD4D00C94221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBE682211BFCBD4D00C94221 /* DLZControls */,
+				BBE6822C1BFCBD4D00C94221 /* DLZControlsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBE6822B1BFCBD4D00C94221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBE6821E1BFCBD4D00C94221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6993F94A1CAD377700B6124A /* DrawLineView.m in Sources */,
+				691F7A051CB7BD4200B4C1A7 /* DLZDatePickerViewController.m in Sources */,
+				BB782C4E1C2B7D1000B85F81 /* AlertController.m in Sources */,
+				69F81E311CB10456007DF1AB /* DLZDatePicker.m in Sources */,
+				6993F93F1CACD44100B6124A /* UILabel+extmethod.m in Sources */,
+				07FB85341C790094007D1F49 /* UIButton+Style.m in Sources */,
+				07FB853A1C790622007D1F49 /* UITextField+Style.m in Sources */,
+				BBE682B61BFCC60F00C94221 /* UILabel+Style.m in Sources */,
+				69F8CB621CABB6AB00C5301E /* DLZCombox.m in Sources */,
+				69A464D01CA3DA9900E208B9 /* DLZTabbarViewController.m in Sources */,
+				69B664691CE1F3C600199F32 /* DLZAlertView.m in Sources */,
+				BB6108301C073D2B004514F5 /* PinPasswordView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE682291BFCBD4D00C94221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBE682301BFCBD4D00C94221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBE682211BFCBD4D00C94221 /* DLZControls */;
+			targetProxy = BBE6822F1BFCBD4D00C94221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BBE682341BFCBD4D00C94221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBE682351BFCBD4D00C94221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBE682371BFCBD4D00C94221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DLZControls/DLZControls-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/lifangchao/Desktop/ForIOSLearn/DLZFramework/DLZHelpers/Pods/../build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BBE682381BFCBD4D00C94221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DLZControls/DLZControls-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/lifangchao/Desktop/ForIOSLearn/DLZFramework/DLZHelpers/Pods/../build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BBE6823A1BFCBD4D00C94221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DLZControlsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBE6823B1BFCBD4D00C94221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DLZControlsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBE6821D1BFCBD4D00C94221 /* Build configuration list for PBXProject "DLZControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE682341BFCBD4D00C94221 /* Debug */,
+				BBE682351BFCBD4D00C94221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBE682361BFCBD4D00C94221 /* Build configuration list for PBXNativeTarget "DLZControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE682371BFCBD4D00C94221 /* Debug */,
+				BBE682381BFCBD4D00C94221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBE682391BFCBD4D00C94221 /* Build configuration list for PBXNativeTarget "DLZControlsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE6823A1BFCBD4D00C94221 /* Debug */,
+				BBE6823B1BFCBD4D00C94221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBE6821A1BFCBD4D00C94221 /* Project object */;
+}

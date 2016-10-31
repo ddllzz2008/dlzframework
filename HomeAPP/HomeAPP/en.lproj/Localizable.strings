@@ -1,0 +1,94 @@
+/* 
+  Localizable.strings
+  HomeAPP
+
+  Created by ddllzz on 16/3/28.
+  Copyright © 2016年 李方超. All rights reserved.
+*/
+CFBundleDisplayName="Nice Billing";
+
+"tabbar_item1"="Spend";
+"tabbar_item2"="Package";
+"tabbar_item3"="Chart";
+"tabbar_item4"="Setting";
+
+/*---------------------Common----------------------------*/
+"common_confirm"="Confirm";
+"common_cancel"="Cancel";
+"common_saving"="Saving";
+"common_savefailed"="Saved Failed";
+"common_savesuccess"="Saved Success";
+"common_save"="Save";
+"common_failed"="Failed";
+"common_warning"="Warning";
+"common_confirmdelete"="Are you sure to delete selected row?";
+
+/*---------------------my package----------------------------*/
+"packageViewController_001"="Input Name";
+"packageViewController_002"="Add";
+"packageViewController_003"="Default Money";
+"packageViewController_004"="Transfer";
+
+/*---------------------AddViewController----------------------------*/
+"addviewcontroller_001"="Money:";
+"addviewcontroller_002"="Location";
+"addviewcontroller_003"="Choose";
+"addviewcontroller_004"="Date";
+"addviewcontroller_005"="Today";
+"addviewcontroller_006"="Choose Category";
+"addviewcontroller_007"="Income Category";
+"addviewcontroller_008"="Spend Money";
+"addviewcontroller_009"="Choose Package";
+"addviewcontroller_010"="Mark";
+"addviewcontroller_011"="Say Something";
+"addviewcontroller_012"="Income Money";
+"addviewcontroller_013"="Expenditure";
+"addviewcontroller_014"="Income";
+
+/*------------------MdyCategoryViewController--------------------*/
+"mdycategoryviewcontroller_001"="Modify Category";
+"mdycategoryviewcontroller_002"="Category Name";
+"mdycategoryviewcontroller_003"="Add Category";
+
+/*------------------packageeditViewController--------------------*/
+"packageeditViewController_001"="Modify Package";
+"packageeditViewController_002"="Package Name";
+"packageeditViewController_003"="Package Balance";
+"packageeditViewController_004"="Add Package";
+
+/*------------------settingViewController--------------------*/
+"settingViewController_001"="My Setting";
+"settingViewController_002"="Category";
+"settingViewController_003"="Remind";
+"settingViewController_004"="Clean";
+"settingViewController_005"="Income Category";
+"settingViewController_006"="Expend Category";
+"settingViewController_007"="Early Warning";
+"settingViewController_008"="Date Remind";
+"settingViewController_009"="Cache CLean";
+"settingViewController_010"="About us";
+"settingViewController_011"="Background";
+
+/*------------------DetailModifyViewController--------------------*/
+"detailmodifyviewcontroller_001"="Modify Expend";
+"detailmodifyviewcontroller_002"="Modify Income";
+
+/*------------------TransferViewController--------------------*/
+"transferviewcontroller_001"="Account Transfer";
+
+/*------------------PackageChooseViewController--------------------*/
+"packagechooseviewcontroller_001"="Choose Account";
+"packagechooseviewcontroller_002"="Transfer Money";
+
+/*------------------RemindViewController--------------------*/
+"remindviewcontroller_001"="My Remind";
+"remindviewcontroller_002"="Remind Message";
+"remindviewcontroller_003"="Add Remind";
+
+/*------------------ChartViewController--------------------*/
+"chartviewcontroller_001"="data loading";
+"chartviewcontroller_002"="rate";
+"chartviewcontroller_003"="detail";
+
+/*------------------BackgroundViewController--------------------*/
+"backgroundviewcontroller_001"="Themes";

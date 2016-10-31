@@ -1,0 +1,73 @@
+//
+//  HomeAPP-Prefix.pch
+//  HomeAPP
+//
+//  Created by 李方超 on 15/12/21.
+//  Copyright (c) 2015年 李方超. All rights reserved.
+//
+
+#ifndef HomeAPP_HomeAPP_Prefix_pch
+#define HomeAPP_HomeAPP_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file
+#import "AppDelegate.h"
+#import "Common.h"
+#import "HttpService.h"
+#import "DDLog.h"
+#import "DDTTYLogger.h"
+#import "DDFileLogger.h"
+#import "AlertController.h"
+#import "Masonry.h"
+#import "UIButton+Style.h"
+#import "UILabel+Style.h"
+#import "UITextField+Style.h"
+#import "UILabel+extmethod.h"
+
+#ifdef DEBUG
+//static const int ddLogLevel = DDLogLevelVerbose;
+static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+#else
+static const int ddLogLevel = LOG_LEVEL_ERROR;
+#endif
+
+#define windowSize [UIScreen mainScreen].bounds;
+
+#define ScreenSize [UIScreen mainScreen].bounds.size
+
+#define systemversion [[[UIDevice currentDevice] systemVersion] floatValue]
+
+#define UIColorFromRGB(rgbValue) \
+[UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0x0000FF))/255.0 \
+alpha:1.0]
+
+//define style
+
+//define color
+#define color_blue_01 0x10D4FE
+#define color_blue_02 0x02D5BA
+#define color_gray_01 0x999999
+#define color_gray_02 0xDDDDEE
+#define color_gray_03 0x555555
+#define color_white_01 0xFFFFFF
+#define color_red_01 0xEE1D1D
+
+#endif
+
+/*----------------全局文件存储key----------------------*/
+#define datastore_familyArray @"datastore_familyArray"
+
+/*-------------------date format-----------------------*/
+#define dateformat_01 @"yyyy年MM月"
+#define dateformat_02 @"yyyy年"
+#define dateformat_03 @"yyyy-MM-dd"
+#define dateformat_04 @"yyyy"
+#define dateformat_05 @"yyyyMM"
+#define dateformat_06 @"yyyyMMdd"
+#define dateformat_07 @"yyyy-MM-dd HH:mm:ss"
+#define dateformat_08 @"yyyy-MM-dd 00:00:00"
+#define dateformat_09 @"yyyy-MM-dd 11:59:59"
+#define dateformat_10 @"yyyy年MM月dd日"

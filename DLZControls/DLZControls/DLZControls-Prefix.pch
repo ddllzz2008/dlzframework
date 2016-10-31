@@ -1,0 +1,38 @@
+//
+//  DLZControls-Prefix.pch
+//  DLZControls
+//
+//  Created by ddllzz on 16/3/24.
+//  Copyright © 2016年 李方超. All rights reserved.
+//
+
+#ifndef DLZControls_Prefix_pch
+#define DLZControls_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* DLZControls_Prefix_pch */
+
+
+#define ScreenSize [UIScreen mainScreen].bounds.size
+
+#define UIColorFromRGB(rgbValue) \
+[UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0x0000FF))/255.0 \
+alpha:1.0]
+
+/*---------------------color--------------------------*/
+#define color_blue_01 0x10D4FE
+#define color_blue_02 0x02D5BA
+#define color_white_01 0xFFFFFF
+#define color_gray_01 0x999999
+#define color_gray_02 0xDDDDDD
+#define color_black_01 0x333333
+
+/*-------------------date format-----------------------*/
+#define dateformat_01 @"yyyy年MM月"
+#define dateformat_02 @"yyyy年"
+#define dateformat_03 @"yyyy年MM月dd日"
